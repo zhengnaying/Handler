@@ -2,6 +2,7 @@ package com.example.handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         b1 = (Button)findViewById(R.id.b1);
         final TextView t1 =findViewById(R.id.text);
         final Handler handler = new Handler(){
-            public void handMessage(Message msg){
+            public void handleMessage(Message msg){
                 t1.setText(msg.arg1+"");
             }
         };
