@@ -15,5 +15,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zny"
+        android:textSize="30sp"
+        android:id="@+id/text"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintLeft_toLeftOf="@+id/b1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
